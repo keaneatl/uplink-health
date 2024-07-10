@@ -1,14 +1,13 @@
 export default function Header() {
   return (
-    <header className="border-b border-b-[#ABABAB] w-screen h-28 px-5 top-0">
-      <nav className="flex items-center h-full">
+    <header className="border-b border-b-[#ABABAB] w-full h-28 px-5 top-0 lg:px-28">
+      <nav className="flex items-center h-full w-full">
         <svg
           width="35"
           height="39"
           viewBox="0 0 35 39"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="justify-self-start"
         >
           <path
             d="M0 0C4.35121 0 8.5242 1.69978 11.601 4.72542C14.6777 7.75105 16.4062 11.8547 16.4062 16.1336V38.0859H0V0Z"
@@ -23,7 +22,7 @@ export default function Header() {
             fill="#003B5B"
           />
         </svg>
-        <div className="flex flex-row ml-auto justify-self-end">
+        <div className="flex flex-row ml-auto">
           <svg
             width="54"
             height="54"
@@ -54,18 +53,3 @@ export default function Header() {
     </header>
   );
 }
-// /* Rectangle 38 */
-
-// box-sizing: border-box;
-
-// position: absolute;
-// width: 430px;
-// height: 116px;
-// left: calc(50% - 430px/2);
-// top: 0px;
-
-// background: #FFFFFF;
-// opacity: 0.2;
-// border-bottom: 2px solid #ABABAB;
-// backdrop-filter: blur(2px);
-// /* Note: backdrop-filter has minimal browser support */
