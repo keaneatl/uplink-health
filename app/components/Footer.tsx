@@ -13,7 +13,7 @@ const lato = Lato({
 
 export default function Footer() {
   return (
-    <footer className="bg-[#191919] mb-4 mx-auto text-white bottom-0 rounded-xl text-2xl flex flex-col justify-center items-center py-14 w-[98%] h-[700px] lg:flex-row lg:justify-evenly lg:h-96">
+    <footer className="bg-[#191919] mb-2 mx-auto text-white bottom-0 rounded-xl text-2xl flex flex-col justify-center items-center py-14 w-[98%] h-[700px] lg:flex-row lg:justify-evenly lg:h-96">
       <svg
         viewBox="0 0 92 102"
         fill="none"
